@@ -12,7 +12,7 @@
 
 timefile=/tmp/micled_timefile
 delay=250
-amixer_option="name='Capture Switch' -D pulse"
+amixer_option="name='Capture Switch'"
 
 function toggleCapture {
     eval amixer cset $amixer_option toggle
