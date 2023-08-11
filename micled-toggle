@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Turn mic on/off or toggle it based on press delay
 # Start -> On
 # Press -> On

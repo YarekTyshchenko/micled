@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 function checkLed {
     if amixer -D pulse get Capture | grep -F '[on]'; then
